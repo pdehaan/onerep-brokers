@@ -5,12 +5,12 @@ Fetch the list of brokers from https://onerep.com/sites-we-remove-from/
 ## USAGE
 
 ```sh
-node index
+npx pdehaan/onerep-brokers
 ```
 
 ### OUTPUT
 
-```json
+```js
 [
   "24counter.com",
   "411.com",
