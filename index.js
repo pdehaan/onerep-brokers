@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { fetchBrokers } from "./lib.js";
 
 const brokers = await fetchBrokers();

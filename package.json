@@ -3,16 +3,17 @@
   "description": "Fetch the list of brokers from https://onerep.com/sites-we-remove-from/",
   "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com>",
+  "bin": "index.js",
   "bugs": {
     "url": "https://github.com/pdehaan/onerep-brokers/issues"
   },
-  "devDependencies": {
+  "dependencies": {
     "cheerio": "^1.0.0-rc.12"
   },
   "homepage": "https://github.com/pdehaan/onerep-brokers#readme",
   "keywords": [],
   "license": "MPL-2.0",
-  "main": "index.js",
+  "main": "lib.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pdehaan/onerep-brokers.git"
