@@ -1,17 +1,25 @@
 {
   "name": "onerep-brokers",
+  "description": "Fetch the list of brokers from https://onerep.com/sites-we-remove-from/",
   "version": "1.0.0",
-  "description": "",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/onerep-brokers/issues"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "homepage": "https://github.com/pdehaan/onerep-brokers#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/onerep-brokers.git"
+  },
   "scripts": {
     "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "devDependencies": {
-    "cheerio": "^1.0.0-rc.12"
-  }
+  "type": "module"
 }
