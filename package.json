@@ -8,7 +8,8 @@
     "url": "https://github.com/pdehaan/onerep-brokers/issues"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "image-downloader": "^4.3.0"
   },
   "homepage": "https://github.com/pdehaan/onerep-brokers#readme",
   "keywords": [],
@@ -20,6 +21,8 @@
   },
   "scripts": {
     "start": "node index",
+    "logos": "node fetch-broker-logos",
+    "report": "node broker-logo-report.js > broker-logo-report.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module"
